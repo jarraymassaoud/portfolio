@@ -11,11 +11,7 @@ export const Header = () => {
 
         <Typed
           className="typed-text"
-          strings={[
-            "Computer Engineer",
-            "Developer FullStack Mern",
-            "Freelancer",
-          ]}
+          strings={["Computer Engineer", "Developer FullStack Mern"]}
           typeSpeed={40}
           backSpeed={60}
           loop
