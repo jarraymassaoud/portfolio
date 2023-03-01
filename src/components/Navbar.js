@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.ico";
+//import logo from "../assets/images/logo.ico";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -7,15 +7,13 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar navbar-expand-md navbar-light fixed-top bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="/">
-          <img
-            src={logo}
-            height="30"
-            width="41"
-            className="logo"
-            alt="My Portfolio"
-          />{" "}
-        </a>
+        <ul className="navbar-nav">
+          <li className="nav-item  active">
+            <a className="nav-link " aria-current="page" href="/">
+              My portfolio
+            </a>
+          </li>
+        </ul>
         <button
           className="navbar-toggler"
           type="button"
@@ -28,7 +26,7 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
         </button>
         <ul className="navbar-nav ">
-          <li className="nav-item  ative">
+          <li className="nav-item  active">
             <a className="nav-link " aria-current="page" href="/">
               Home
             </a>

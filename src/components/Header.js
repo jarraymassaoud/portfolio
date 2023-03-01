@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import logo from "../images/logo.jpg";
+import logo from "../assets/images/logo1.jpg";
 
 export const Header = () => {
   return (
