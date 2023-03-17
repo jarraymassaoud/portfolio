@@ -1,29 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.73e3cc34.chunk.css",
-    "main.js": "/portfolio/static/js/main.166588b4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.166588b4.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.78a9b4ce.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.78a9b4ce.js.map",
-    "static/css/2.9a0b93d9.chunk.css": "/portfolio/static/css/2.9a0b93d9.chunk.css",
-    "static/js/2.fcd8381c.chunk.js": "/portfolio/static/js/2.fcd8381c.chunk.js",
-    "static/js/2.fcd8381c.chunk.js.map": "/portfolio/static/js/2.fcd8381c.chunk.js.map",
-    "static/js/3.62ded6c4.chunk.js": "/portfolio/static/js/3.62ded6c4.chunk.js",
-    "static/js/3.62ded6c4.chunk.js.map": "/portfolio/static/js/3.62ded6c4.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.04736109.css",
+    "main.js": "/portfolio/static/js/main.a74b8843.js",
+    "static/js/787.f0d48fe9.chunk.js": "/portfolio/static/js/787.f0d48fe9.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/logo1.jpg": "/portfolio/static/media/logo1.da8ca6c3ed543d1024b8.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/back.jpg": "/portfolio/static/media/back.d253199a32b3f4d61d4c.jpg",
     "index.html": "/portfolio/index.html",
-    "static/css/2.9a0b93d9.chunk.css.map": "/portfolio/static/css/2.9a0b93d9.chunk.css.map",
-    "static/css/main.73e3cc34.chunk.css.map": "/portfolio/static/css/main.73e3cc34.chunk.css.map",
-    "static/js/2.fcd8381c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fcd8381c.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/portfolio/static/media/back.d253199a.jpg",
-    "static/media/font-awesome.min.css": "/portfolio/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/logo.babee63c.jpeg": "/portfolio/static/media/logo.babee63c.jpeg",
-    "static/media/mylogo.fddc87f0.jpg": "/portfolio/static/media/mylogo.fddc87f0.jpg"
+    "main.04736109.css.map": "/portfolio/static/css/main.04736109.css.map",
+    "main.a74b8843.js.map": "/portfolio/static/js/main.a74b8843.js.map",
+    "787.f0d48fe9.chunk.js.map": "/portfolio/static/js/787.f0d48fe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.78a9b4ce.js",
-    "static/css/2.9a0b93d9.chunk.css",
-    "static/js/2.fcd8381c.chunk.js",
-    "static/css/main.73e3cc34.chunk.css",
-    "static/js/main.166588b4.chunk.js"
+    "static/css/main.04736109.css",
+    "static/js/main.a74b8843.js"
   ]
 }
