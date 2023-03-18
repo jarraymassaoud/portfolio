@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo1 from "../assets/images/logo1.jpg";
+import logo2 from "../assets/images/logo1.jpg";
 export const Portfolio = () => {
   const [selected, setSelected] = useState(null);
 
@@ -21,7 +21,7 @@ export const Portfolio = () => {
                 className={`logoport ${selected === 0 ? "selected" : ""}`}
                 onClick={() => handleSelect(0)}
               >
-                <img src={logo1} alt="Logo 1" />
+                <img src={logo2} alt="Logo 1" />
               </div>
             </div>
             <div className="col-md-4">
@@ -29,7 +29,7 @@ export const Portfolio = () => {
                 className={`logoport ${selected === 1 ? "selected" : ""}`}
                 onClick={() => handleSelect(1)}
               >
-                <img src={logo1} alt="Logo 2" />
+                <img src={logo2} alt="Logo 2" />
               </div>
             </div>
 
@@ -38,7 +38,7 @@ export const Portfolio = () => {
                 className={`logoport ${selected === 2 ? "selected" : ""}`}
                 onClick={() => handleSelect(2)}
               >
-                <img src={logo1} alt="Logo 3" />
+                <img src={logo2} alt="Logo 3" />
               </div>
             </div>
           </div>
