@@ -31,6 +31,25 @@ export const Resume = () => {
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <h3 className="resume-title">Professional Experience</h3>
               <div className="resume-item">
+                <h4>Developer Front-End</h4>
+                <h5>Jan 20223 - Mar 2023</h5>
+                <h3> </h3>
+                <ul>
+                  <li>
+                    <h3>Develop and implement an e-commerce website.</h3>
+                  </li>
+                  <li>
+                    <h3>Develop and implement an fast-food website.</h3>
+                  </li>
+                  <li>
+                    <h3>
+                      Develop and document efficient and reliable source code
+                      that meets functional requirements
+                    </h3>
+                  </li>
+                </ul>
+              </div>
+              <div className="resume-item">
                 <h4>Computer Engineer</h4>
                 <h5>June 2021 - december 2022</h5>
                 <h3> Plus Security -Ariana </h3>
@@ -45,11 +64,106 @@ export const Resume = () => {
               </div>
               <div className="resume-item">
                 <h4> Odoo Developer </h4>
-                <h5>December 2020 - Mai 2021</h5>
+                <h5>December 2020 - May 2021</h5>
                 <h3> Digi Firms - Ariana </h3>
                 <ul>
                   <li>
                     <h3>development of odoo applications</h3>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6" data-aos="fade-up">
+              <h3 className="resume-title">Formation</h3>
+              <div className="resume-item">
+                <h4>
+                  The Hong Kong University of Science and Technology -online-
+                </h4>
+                <h5>Fev 2023</h5>
+                <h3>Front-End Web Development with React</h3>
+              </div>
+              <div className="resume-item">
+                <h4>
+                  The Hong Kong University of Science and Technology -online-
+                </h4>
+                <h5>Jan 2023</h5>
+                <h3>Front-End Web UI Frameworks and Tools: Bootstrap 4</h3>
+              </div>
+              <div className="resume-item">
+                <h4>Training Center Of Ariana</h4>
+                <h5>Oct 2019</h5>
+                <h3>Front-end Html5/CSS3/jQuery</h3>
+              </div>
+            </div>
+            <div className="col-lg-6" data-aos="fade-up">
+              <h3 className="resume-title">Language</h3>
+              <div className="resume-item">
+                <h4>English</h4>
+                <ul>
+                  <li>
+                    <h4>
+                      {" "}
+                      Read &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <progress value="70" max="100"></progress>{" "}
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      Write &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+                      <progress value="60" max="100"></progress>{" "}
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      Speak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+                      <progress value="50" max="100"></progress>{" "}
+                    </h4>
+                  </li>
+                </ul>
+              </div>
+              <div className="resume-item">
+                <h4>French</h4>
+                <ul>
+                  <li>
+                    <h4>
+                      Read &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <progress value="80" max="100"></progress>{" "}
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      Write &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+                      <progress value="70" max="100"></progress>{" "}
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      Speak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+                      <progress value="60" max="100"></progress>{" "}
+                    </h4>
+                  </li>
+                </ul>
+              </div>
+              <div className="resume-item">
+                <h4>Arab</h4>
+                <ul>
+                  <li>
+                    <h4>
+                      Read &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <progress value="100" max="100"></progress>{" "}
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      Write &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+                      <progress value="100" max="100"></progress>{" "}
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      Speak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+                      <progress value="100" max="100"></progress>{" "}
+                    </h4>
                   </li>
                 </ul>
               </div>

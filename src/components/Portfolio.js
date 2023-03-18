@@ -1,12 +1,50 @@
-import React from "react";
+import React, { useState } from "react";
+import logo1 from "../assets/images/logo1.jpg";
+export const Portfolio = () => {
+  const [selected, setSelected] = useState(null);
 
-const Portfolio = () => {
+  const handleSelect = (index) => {
+    setSelected(index);
+  };
+
   return (
-    <section className="portfolio" id="portfolio">
-      <div className="container">
-        <h2 className="portfolio-title">Portfolio</h2>
+    <div>
+      <div className="portfolio" id="portfolio">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4">
+              <h2 className="dark-color">My Projects</h2>
+            </div>
+
+            <div className="col-md-4">
+              <div
+                className={`logoport ${selected === 0 ? "selected" : ""}`}
+                onClick={() => handleSelect(0)}
+              >
+                <img src={logo1} alt="Logo 1" />
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div
+                className={`logoport ${selected === 1 ? "selected" : ""}`}
+                onClick={() => handleSelect(1)}
+              >
+                <img src={logo1} alt="Logo 2" />
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div
+                className={`logoport ${selected === 2 ? "selected" : ""}`}
+                onClick={() => handleSelect(2)}
+              >
+                <img src={logo1} alt="Logo 3" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
 

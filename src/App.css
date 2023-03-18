@@ -325,10 +325,15 @@ mark {
 }
 
 /**************portfolio**************/
+.portfolio {
+  padding-bottom: 100px;
+}
 .portfolio h2 {
   font-size: 40px;
   font-weight: 700;
   margin: 0 0 6px;
+}
+.portfolio .dark-color {
   color: #272e92;
 }
 
@@ -341,101 +346,6 @@ mark {
 }
 .contact {
   padding-bottom: 150px;
-}
-
-.contact .email-form {
-  width: 100%;
-  padding: 30px;
-  background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-}
-
-.contact .email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.contact .email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #b318d2;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .email-form input,
-.contact .email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .email-form input {
-  height: 44px;
-}
-.contact .email-form input:hover {
-  background-color: var(--primary-pink);
-}
-
-.contact .email-form textarea {
-  padding: 10px 12px;
-}
-.contact .email-form textarea:hover {
-  background-color: var(--primary-pink);
-}
-
-.contact .email-form button[type="submit"] {
-  background: #149ddd;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact .email-form button[type="submit"]:hover {
-  background-color: var(--primary-pink);
 }
 
 /*****************back top*************/
@@ -464,17 +374,43 @@ footer.nb-footer .about .social-media {
 }
 footer.nb-footer .about .social-media li a {
   float: left;
-  width: 40px;
-  height: 40px;
-  line-height: 45px;
-  border-radius: 50%;
-  font-size: 16px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 100%;
+  font-size: 30px;
   color: #b78c33;
   border: 1px solid rgba(255, 255, 255, 0.3);
   text-align: center;
-  margin-right: 10px;
+  margin-right: 30px;
 }
-footer.nb-footer .about .social-media li a:hover {
-  background: var(--primary-pink);
-  border-color: #b78c33;
+
+.logoport img {
+  width: 70%;
+  height: 70%;
+  cursor: pointer;
+}
+
+.logoport.selected {
+  transform: scale(1.5);
+}
+
+.logoport {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.logoskills img {
+  width: 60%;
+  height: 60%;
+  cursor: pointer;
+}
+.logoskills.selected {
+  transform: scale(2);
+}
+.logoskills {
+  display: flex;
+  align-items: center;
+  margin: 10px;
 }
