@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.04736109.css",
-    "main.js": "/portfolio/static/js/main.a74b8843.js",
+    "main.css": "/portfolio/static/css/main.ee555827.css",
+    "main.js": "/portfolio/static/js/main.f3ddf5f9.js",
     "static/js/787.f0d48fe9.chunk.js": "/portfolio/static/js/787.f0d48fe9.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/bootstrap4.png": "/portfolio/static/media/bootstrap4.4fd05db263414a035f9e.png",
     "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.fc3bd1ec69d7a50e685a.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/logo1.jpg": "/portfolio/static/media/logo1.da8ca6c3ed543d1024b8.jpg",
+    "static/media/CSS3.png": "/portfolio/static/media/CSS3.1ee9266ba0475cc6490f.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/HTML5.png": "/portfolio/static/media/HTML5.c4d9c8dcdf4078875355.png",
+    "static/media/react.png": "/portfolio/static/media/react.daae3e094212712ac94b.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.96a13af0147433eded9b.png",
     "static/media/back.jpg": "/portfolio/static/media/back.d253199a32b3f4d61d4c.jpg",
+    "static/media/mongoDB.jpg": "/portfolio/static/media/mongoDB.7f8d1fa4014d58f7e782.jpg",
+    "static/media/jquery.png": "/portfolio/static/media/jquery.70376e3bf2da028fd6c5.png",
     "index.html": "/portfolio/index.html",
-    "main.04736109.css.map": "/portfolio/static/css/main.04736109.css.map",
-    "main.a74b8843.js.map": "/portfolio/static/js/main.a74b8843.js.map",
+    "main.ee555827.css.map": "/portfolio/static/css/main.ee555827.css.map",
+    "main.f3ddf5f9.js.map": "/portfolio/static/js/main.f3ddf5f9.js.map",
     "787.f0d48fe9.chunk.js.map": "/portfolio/static/js/787.f0d48fe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04736109.css",
-    "static/js/main.a74b8843.js"
+    "static/css/main.ee555827.css",
+    "static/js/main.f3ddf5f9.js"
   ]
 }
