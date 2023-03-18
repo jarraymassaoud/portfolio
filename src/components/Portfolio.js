@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo2 from "../assets/images/logo1.jpg";
+import logo2 from "../assets/images/flower.png";
 export const Portfolio = () => {
   const [selected, setSelected] = useState(null);
 
