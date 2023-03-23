@@ -1,5 +1,5 @@
 import React from "react";
-//import logo from "../assets/images/logo.ico";
+import logo from "../assets/images/logo.ico";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -10,7 +10,14 @@ const Navbar = () => {
         <ul className="navbar-nav">
           <li className="nav-item  active">
             <a className="nav-link " aria-current="page" href="/">
-              My portfolio
+              <img
+                src={logo}
+                height="30"
+                width="41"
+                alt="logo"
+                style={{ marginRight: "10px" }}
+              />
+              <span> My Portfolio</span>
             </a>
           </li>
         </ul>
