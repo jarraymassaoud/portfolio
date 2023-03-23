@@ -33,8 +33,8 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
         </button>
         <ul className="navbar-nav ">
-          <li className="nav-item  active">
-            <a className="nav-link " aria-current="page" href="/">
+          <li className="nav-item active ">
+            <a className="nav-link " href="#home">
               Home
             </a>
           </li>
