@@ -3,13 +3,13 @@ import logo from "../assets/images/logo.ico";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <nav className="navbar navbar navbar-expand-md navbar-light fixed-top bg-dark">
       <div className="container">
         <ul className="navbar-nav">
           <li className="nav-item  active">
-            <a className="nav-link " aria-current="page" href="/">
+            <a className="nav-link " href="#">
               <img
                 src={logo}
                 height="30"
@@ -33,8 +33,8 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
         </button>
         <ul className="navbar-nav ">
-          <li className="nav-item active ">
-            <a className="nav-link " href="#home">
+          <li className="nav-item active">
+            <a className="nav-link" href="#">
               Home
             </a>
           </li>
