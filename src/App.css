@@ -66,7 +66,7 @@ nav li ul {
 }
 
 .bg-dark {
-  color: #0f49e9a9;
+  color: #03050cf6;
 }
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
@@ -75,7 +75,7 @@ nav li ul {
 /*************************header*************/
 .header-wraper {
   position: relative;
-  background: url("./assets/images/back.jpg") no-repeat;
+  background: url("./assets/images/Able.webp") no-repeat;
   background-position: center;
   background-size: cover;
   height: 90vh;
@@ -83,10 +83,10 @@ nav li ul {
 .main-info {
   display: flex;
   position: absolute;
-  top: 30%;
+  top: 10%;
   left: 0;
-  right: 0;
-  bottom: 0;
+  right: 30%;
+  bottom: 60%;
 
   flex-direction: column;
   justify-content: center;
@@ -103,32 +103,32 @@ nav li ul {
   color: var(--primay-orange);
   font-size: 2rem;
 }
+.main-info .main-cv a {
+  font-family: "Roboto Condensed", sans-serif;
+  color: var(--primary-dark);
+  font-size: 2rem;
+  top: 50%;
+  right: 40%;
+}
 /********************typed********/
 .typed-text {
   font-size: 2rem;
-  color: var(--primary-red);
+  color: var(--primay-orange);
 }
 
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--primary-orange);
   text-transform: uppercase;
   padding: 10px 12px 12px 12px;
   border-radius: 0;
-  color: #3987f3;
+  color: #01060cef;
   margin: 2rem;
 }
 .btn-main-offer:hover {
   text-decoration: none;
   background-color: var(--primay-orange);
-  color: #3987f3;
+  color: hsl(214, 23%, 6%);
   transition: 0.2s ease-in-out;
-}
-
-.tsparticles-canvas-el {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1;
 }
 
 /***********************about**************/
@@ -241,12 +241,24 @@ mark {
   color: #fc5356;
 }
 .dark-color {
-  color: #20247b;
+  color: #01010cef;
+}
+.section {
+  position: relative;
+  background: url("./assets/images/Able.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
 }
 
 /**********************resume*************/
 .resume {
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
+  position: relative;
+  background: url("./assets/images/Able.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250vh;
 }
 .resume h2 {
   font-size: 40px;
@@ -255,7 +267,7 @@ mark {
 }
 
 .resume .dark-color {
-  color: #272e92;
+  color: #02020a;
 }
 .resume p {
   color: #000;
@@ -326,7 +338,12 @@ mark {
 
 /**************portfolio**************/
 .portfolio {
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
+  position: relative;
+  background: url("./assets/images/Able.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 170vh;
 }
 .portfolio h2 {
   font-size: 40px;
@@ -334,18 +351,32 @@ mark {
   margin: 0 0 6px;
 }
 .portfolio .dark-color {
-  color: #272e92;
+  color: #020207;
 }
 
 /*************contact*********/
 .contact h2 {
   font-size: 40px;
   font-weight: 700;
-  margin: 0 0 6px;
-  color: #272e92;
+  color: #020311;
+  top: 20px;
 }
 .contact {
-  padding-bottom: 150px;
+  /*padding-bottom: 150px;*/
+  position: relative;
+  background: url("./assets/images/Able.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+.contact .about .social-media li a {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 30px;
+  color: #0e0a02;
+  text-align: center;
+  margin-right: 30px;
 }
 
 /*****************back top*************/
@@ -413,4 +444,14 @@ footer.nb-footer .about .social-media li a {
   display: flex;
   align-items: center;
   margin: 10px;
+}
+.skills {
+  position: relative;
+  background: url("./assets/images/Able.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+.skills .dark-color {
+  color: #020207;
 }
