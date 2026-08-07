@@ -74,7 +74,7 @@ nav a.nav-link {
   position: relative;
   background: url("./assets/images/Able.webp") no-repeat center center/cover;
   min-height: 100vh; /* Utiliser min-height au lieu de fixed height */
-  padding: 100px 20px 60px 20px;
+/*padding: 100px 20px 60px 20px;
 }
 
 /* ================= HEADER / HERO ================= */
@@ -92,6 +92,8 @@ nav a.nav-link {
   align-items: center;
   z-index: 1;
 }
+
+
 
 .main-info h2,
 .main-info p,
@@ -124,24 +126,15 @@ nav a.nav-link {
   margin-bottom: 10px;
 }
 
-/*.about-text p {
+.about-text p {
   font-size: 18px;
-}*/
+}
 
 mark {
   background: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
   padding: 0 4px;
 }
-.about-section {
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-}
 
-.about-text p {
-  line-height: 1.7;
-  font-size: 1.05rem;
-}
 /* ================= RESUME ================= */
 .resume h2,
 .portfolio h2,

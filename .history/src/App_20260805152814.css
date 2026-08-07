@@ -124,24 +124,15 @@ nav a.nav-link {
   margin-bottom: 10px;
 }
 
-/*.about-text p {
+.about-text p {
   font-size: 18px;
-}*/
+}
 
 mark {
   background: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
   padding: 0 4px;
 }
-.about-section {
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-}
 
-.about-text p {
-  line-height: 1.7;
-  font-size: 1.05rem;
-}
 /* ================= RESUME ================= */
 .resume h2,
 .portfolio h2,

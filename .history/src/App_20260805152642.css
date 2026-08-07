@@ -74,11 +74,11 @@ nav a.nav-link {
   position: relative;
   background: url("./assets/images/Able.webp") no-repeat center center/cover;
   min-height: 100vh; /* Utiliser min-height au lieu de fixed height */
-  padding: 100px 20px 60px 20px;
+/*padding: 100px 20px 60px 20px;
 }
 
 /* ================= HEADER / HERO ================= */
-.header-wraper {
+/*.header-wraper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,8 +91,29 @@ nav a.nav-link {
   justify-content: center;
   align-items: center;
   z-index: 1;
+}*/
+.header-wrapper {
+  position: relative;
+  /*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/images/Able.webp") no-repeat center center;
+  background-size: cover;*/
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.main-info {
+  z-index: 1;
+}
+
+.main-cv img {
+  transition: transform 0.3s ease;
+}
+
+.main-cv img:hover {
+  transform: scale(1.08);
+}
 .main-info h2,
 .main-info p,
 .typed-text {
@@ -124,24 +145,15 @@ nav a.nav-link {
   margin-bottom: 10px;
 }
 
-/*.about-text p {
+.about-text p {
   font-size: 18px;
-}*/
+}
 
 mark {
   background: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
   padding: 0 4px;
 }
-.about-section {
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-}
 
-.about-text p {
-  line-height: 1.7;
-  font-size: 1.05rem;
-}
 /* ================= RESUME ================= */
 .resume h2,
 .portfolio h2,

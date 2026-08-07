@@ -7,10 +7,9 @@ export const Home = () => {
     <div id="home" className="header-wraper">
       <div className="main-info">
         {/* Ton texte animé */}
-        <h1 className="fw-bold text-white mb-2">I am Jarray Massaoud</h1>
-        <p className="typed-text fs-4 text-warning mb-4">
-          Full-Stack Web Developer
-        </p>
+        <p>I am Jarray Massaoud</p>
+        <p className="typed-text">I am a Developer</p>
+
         {/* Ton image de CV/Profile (optionnel si tu la veux ici) */}
         <div className="main-cv">
           <img
@@ -29,7 +28,7 @@ export const Home = () => {
           <a
             href="/path-to-your-cv.pdf"
             download="CV_Jarray_Massaoud.pdf"
-            className="btn btn-primary me-3"
+            className="btn btn-outline-warning"
           >
             Download CV
           </a>

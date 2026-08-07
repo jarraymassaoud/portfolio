@@ -1,0 +1,487 @@
+/******************************navbar******************/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f90;
+  --primary-dark: #000;
+  --primary-red: #eb400c;
+  --primary-pink: #b013c5;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.logo {
+  width: 40px;
+}
+
+nav a.nav-link {
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+nav li ul {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  float: left;
+  display: block;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-top: 3px var(--primary-dark);
+}
+.navbar-brand {
+  max-width: 40px;
+  padding: 0 !important;
+  height: 25px !important;
+}
+.navbar-nav > li > a.active {
+  border-top: 3px solid var(--primary-orange);
+}
+.navbar-nav > li > a::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 5px;
+  width: 0;
+  border-radius: 16px;
+  background: var(--primary-pink);
+  bottom: 1px;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s ease-out 0s;
+}
+.bg-dark {
+  background-color: #5183b6 !important;
+}
+.navbar {
+  position: fixed !important;
+  transition: all 0.3s ease-out 0s !important;
+  padding: 0.3rem 2rem !important;
+  font-size: 1.2rem !important;
+  border-bottom: 6px solid var(--primary-pink);
+}
+
+.bg-dark {
+  color: #03050cf6;
+}
+.navbar-nav .nav-item a:hover::after {
+  width: 100%;
+}
+
+/*************************header*************/
+.header-wrapper {
+  position: relative;
+  background: url("./assets/images/Able.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 80px 0;
+}
+.header-wraper img {
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  left: 10%;
+  cursor: pointer;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  bottom: 50%;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  z-index: 1;
+}
+.main-info h2 {
+  color: var(--primary-orange);
+}
+.main-info p {
+  font-family: "Roboto Condensed", sans-serif;
+  color: var(--primary-orange);
+  font-size: 2rem;
+}
+.main-info .main-cv a {
+  font-family: "Roboto Condensed", sans-serif;
+  color: var(--primary-dark);
+  font-size: 2rem;
+  top: 50%;
+  right: 40%;
+}
+
+/********************typed********/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-orange);
+}
+
+.btn-main-offer {
+  border: 1px solid var(--primary-orange);
+  text-transform: uppercase;
+  padding: 10px 12px 12px 12px;
+  border-radius: 0;
+  color: #01060cef;
+  margin: 2rem;
+}
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-orange);
+  color: hsl(214, 23%, 6%);
+  transition: 0.2s ease-in-out;
+}
+
+/***********************about**************/
+
+/*body {
+  color: #0b0d0e;
+  margin-top: 20px;
+}*/
+.section {
+  padding: 100px 0;
+  position: relative;
+  padding-bottom: 100px;
+}
+.gray-bg {
+  background-color: #f5f5f5;
+}
+
+/* About Me 
+---------------------*/
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+@media (max-width: 767px) {
+  .about-text h3 {
+    font-size: 35px;
+  }
+}
+.about-text h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .about-text h6 {
+    font-size: 18px;
+  }
+}
+.about-text p {
+  font-size: 18px;
+  max-width: 450px;
+}
+.about-text p mark {
+  font-weight: 600;
+  color: #20247b;
+}
+
+.about-list {
+  padding-top: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.about-list .media {
+  padding: 5px 0;
+}
+.about-list label {
+  color: #20247b;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+  font-size: 25px;
+}
+
+.about-list p {
+  margin: 0;
+  font-size: 25px;
+}
+
+@media (max-width: 991px) {
+  .about-avatar {
+    margin-top: 50px;
+  }
+}
+
+.about-section .counter {
+  padding: 22px 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+}
+.about-section .counter .count-data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about-section .counter .count {
+  font-weight: 700;
+  color: #20247b;
+  margin: 0 0 5px;
+}
+.about-section .counter p {
+  font-weight: 600;
+  margin: 0;
+}
+mark {
+  background-image: linear-gradient(
+    rgba(252, 83, 86, 0.6),
+    rgba(252, 83, 86, 0.6)
+  );
+  background-size: 100% 3px;
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  background-color: transparent;
+  padding: 0;
+  color: currentColor;
+}
+.theme-color {
+  color: #fc5356;
+}
+.dark-color {
+  color: #01010cef;
+}
+.section {
+  position: relative;
+  background: url("./assets/images/Able.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 80px 0;
+}
+
+/**********************resume*************/
+.resume {
+  /*padding-bottom: 100px;*/
+  position: relative;
+  background: url("./assets/images/Able.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.resume h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.resume .dark-color {
+  color: #02020a;
+}
+.resume p {
+  color: #000;
+  font-size: 15px;
+}
+.resume .resume-title {
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #111010;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+.resume .resume-item {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/**************portfolio**************/
+.portfolio {
+  /*padding-bottom: 100px;*/
+  position: relative;
+  background: url("./assets/images/Able.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.portfolio h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  transform: translateX(0%);
+  transition: opacity 50s ease-in-out, transform 50s ease-in-out;
+}
+.portfolio .dark-color {
+  color: #020207;
+}
+
+/*************contact*********/
+.contact h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #020311;
+}
+.contact {
+  /*padding-bottom: 150px;*/
+  position: relative;
+  background: url("./assets/images/Able.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+.contact .about .social-media li a {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 30px;
+  color: #0e0a02;
+  text-align: center;
+  margin-right: 30px;
+}
+
+/*****************back top*************/
+
+/********************footeer*********/
+
+footer.nb-footer {
+  background-color: #145ca3;
+  margin-top: 15px;
+  padding: 0px;
+  border-top: 6px solid var(--primary-pink);
+}
+footer.nb-footer .about {
+  margin: 0 auto;
+  margin-top: 4px;
+  max-width: 400px;
+  text-align: center;
+}
+footer.nb-footer .about p {
+  font-size: 13px;
+  color: #999;
+  margin-top: 7px;
+}
+footer.nb-footer .about .social-media {
+  margin-top: 15px;
+}
+footer.nb-footer .about .social-media li a {
+  float: left;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 100%;
+  font-size: 30px;
+  color: #b78c33;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  margin-right: 30px;
+}
+
+.logoport img {
+  width: 70%;
+  height: 70%;
+  cursor: pointer;
+}
+
+.logoport.selected {
+  transform: scale(1.5);
+}
+
+.logoport {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.logoskills img {
+  width: 60%;
+  height: 60%;
+  cursor: pointer;
+}
+.logoskills.selected {
+  transform: scale(2);
+}
+.logoskills {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.skills {
+  position: relative;
+  background: url("./assets/images/Able.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.skills .dark-color {
+  color: #020207;
+}
+.page-enter {
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 300ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.page-exit-active {
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms ease-out;
+}

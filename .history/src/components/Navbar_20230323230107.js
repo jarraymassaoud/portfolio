@@ -5,12 +5,11 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-light fixed-top bg-dark">
+    <nav className="navbar navbar navbar-expand-md navbar-light fixed-top bg-dark">
       <div className="container">
         <ul className="navbar-nav">
-          <li className="nav-item active">
-            {/* Badelna href="#" b-href="#home" */}
-            <a className="nav-link" href="#home">
+          <li className="nav-item  active">
+            <a className="nav-link " href="#">
               <img
                 src={logo}
                 height="30"
@@ -33,10 +32,9 @@ export const Navbar = () => {
         >
           <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
         </button>
-        <ul className="navbar-nav">
+        <ul className="navbar-nav ">
           <li className="nav-item active">
-            {/* Badelna href="#" b-href="#home" */}
-            <a className="nav-link" href="#home">
+            <a className="nav-link" href="#">
               Home
             </a>
           </li>
@@ -70,5 +68,4 @@ export const Navbar = () => {
     </nav>
   );
 };
-
 export default Navbar;

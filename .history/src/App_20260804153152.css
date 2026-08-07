@@ -1,0 +1,22 @@
+/* ================== NAVBAR Logo ================== */
+.logo {
+  max-width: 40px; /* Taille sur grand écran */
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+/* ================== RESPONSIVE DESIGN ================== */
+@media (max-width: 768px) {
+  .navbar-brand .logo {
+    max-width: 30px; /* Taille réduite sur mobile */
+  }
+
+  .navbar {
+    padding: 0.2rem 1rem !important; /* Moins de padding */
+  }
+
+  .main-info p,
+  .typed-text {
+    font-size: 1.2rem; /* Texte d'info moins grand */
+  }
+}
