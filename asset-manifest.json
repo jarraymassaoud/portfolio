@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.56300cf0.css",
-    "main.js": "/portfolio/static/js/main.02edf741.js",
+    "main.js": "/portfolio/static/js/main.ad53c0c9.js",
     "static/js/787.f0d48fe9.chunk.js": "/portfolio/static/js/787.f0d48fe9.chunk.js",
     "static/media/flower.png": "/portfolio/static/media/flower.cc1fcbd1a9e3ddd769a2.png",
     "static/media/Able.webp": "/portfolio/static/media/Able.4123509cd9bab8d3fef0.webp",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/bootstrap4.png": "/portfolio/static/media/bootstrap4.4fd05db263414a035f9e.png",
+    "static/media/miteck.ico": "/portfolio/static/media/miteck.a54a2713a731f8511cbd.ico",
     "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.fc3bd1ec69d7a50e685a.png",
@@ -15,18 +16,19 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/HTML5.png": "/portfolio/static/media/HTML5.c4d9c8dcdf4078875355.png",
     "static/media/react.png": "/portfolio/static/media/react.daae3e094212712ac94b.png",
-    "static/media/mass.jpg": "/portfolio/static/media/mass.73e2a7fbc351f8ba0eb5.jpg",
+    "static/media/massaoud_jarray_cv.pdf": "/portfolio/static/media/massaoud_jarray_cv.5513bc58b54805083e3b.pdf",
     "static/media/javascript.png": "/portfolio/static/media/javascript.96a13af0147433eded9b.png",
     "static/media/mongoDB.jpg": "/portfolio/static/media/mongoDB.7f8d1fa4014d58f7e782.jpg",
     "static/media/jquery.png": "/portfolio/static/media/jquery.70376e3bf2da028fd6c5.png",
-    "static/media/logo.ico": "/portfolio/static/media/logo.49775bb9d280ecfc5375.ico",
+    "static/media/logomas.jpeg": "/portfolio/static/media/logomas.d3d0fe82112e50cba158.jpeg",
+    "static/media/atas.jpeg": "/portfolio/static/media/atas.e21a515df455de669551.jpeg",
     "index.html": "/portfolio/index.html",
     "main.56300cf0.css.map": "/portfolio/static/css/main.56300cf0.css.map",
-    "main.02edf741.js.map": "/portfolio/static/js/main.02edf741.js.map",
+    "main.ad53c0c9.js.map": "/portfolio/static/js/main.ad53c0c9.js.map",
     "787.f0d48fe9.chunk.js.map": "/portfolio/static/js/787.f0d48fe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56300cf0.css",
-    "static/js/main.02edf741.js"
+    "static/js/main.ad53c0c9.js"
   ]
 }
