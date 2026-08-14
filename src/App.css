@@ -6,6 +6,7 @@
   --primary-dark: #000000;
   --primary-red: #eb400c;
   --primary-pink: #b013c5;
+  --primary-blue: #1f5297; /* Wala #5183b6 3la hssab l-couleur illi testa3mel fiha f l-navbar/resume */
 }
 
 * {
@@ -79,10 +80,11 @@ nav a.nav-link {
 
 /* ================= HEADER / HERO ================= */
 .header-wraper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  height: 100vh; /* Ya5ou el-saf7a kamla */
+  position: relative;
+
+  background-size: cover;
+  color: white;
 }
 
 .main-info {
@@ -113,10 +115,15 @@ nav a.nav-link {
 
 .btn-main-offer:hover {
   background-color: var(--primary-orange);
-  color: #000;
+  color: hsl(0, 0%, 4%);
   text-decoration: none;
 }
-
+@media (max-width: 768px) {
+  .header-wraper {
+    height: auto; /* Bch ma ykounch s5ir fel-portabl */
+    padding: 100px 0;
+  }
+}
 /* ================= ABOUT ================= */
 .about-text h3 {
   font-size: 45px;

@@ -52,13 +52,13 @@ export const Skills = () => {
       <div className="container">
         <div className="row text-center mb-5">
           <div className="col-12">
-            <h2 className="dark-color">Technical Skills</h2>
+            <h2 className="text-white fw-bold">Technical Skills</h2>
             <p className="text-muted">Technologies & Tools I work with</p>
           </div>
         </div>
 
         {skillCategories.map((category, catIndex) => (
-          <div key={catIndex} className="mb-4">
+          <div key={catIndex} className="mb-2">
             <h4 className="text-primary border-bottom pb-2 mb-3">
               {category.title}
             </h4>

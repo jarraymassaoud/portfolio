@@ -1,135 +1,224 @@
 import React from "react";
+import { Fade } from "react-animation-components";
 
 export const Resume = () => {
   return (
-    <section className="resume" id="resume">
-      <div className="container">
-        <h2 className="dark-color">Resume</h2>
-        <div className="row">
-          {/* Education */}
-          <div className="col-lg-6" data-aos="fade-up">
-            <h3 className="resume-title">Education</h3>
-
-            <div className="resume-item">
-              <h4>National Engineering Diploma in Computer Engineering</h4>
-              <h5>2018 - 2020</h5>
-              <p className="school-name">
-                Private Higher School of Engineers and Technological Studies of
-                Tunis
-              </p>
-            </div>
-
-            <div className="resume-item">
-              <h4>Professional Master in Industrial Computer Science</h4>
-              <h5>2013 - 2015</h5>
-              <p className="school-name">
-                Higher Institute of Computer Science of Medenine
-              </p>
-            </div>
-
-            <div className="resume-item">
-              <h4>Master Degree in Computer Science</h4>
-              <h5>2004 - 2010</h5>
-              <p className="school-name">Faculty of Sciences of Gabes</p>
+    <Fade in>
+      <section className="resume section" id="resume">
+        <div className="container">
+          {/* Section Header */}
+          <div className="row text-center mb-5">
+            <div className="col-12">
+              <h2 className="text-white fw-bold">Resume</h2>
             </div>
           </div>
 
-          {/* Professional Experience */}
-          <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 className="resume-title">Professional Experience</h3>
+          <div className="row g-4">
+            {/* Carré 1: Professional Experience */}
+            <div className="col-lg-6">
+              <div
+                className="p-4 rounded shadow-sm h-100 border border-light border-opacity-25"
+                style={{
+                  backgroundColor: "rgba(255, 255, 255, 0.12)",
+                  backdropFilter: "blur(5px)",
+                }}
+              >
+                <h3 className="resume-title text-warning mb-4 pb-2 border-bottom border-light border-opacity-25">
+                  Professional Experience
+                </h3>
 
-            <div className="resume-item">
-              <h4>Front-End Developer</h4>
-              <h5>Jan 2023 - Mar 2023</h5>
-              <ul>
-                <li>Develop and implement an e-commerce website.</li>
-                <li>Develop and implement a fast-food website.</li>
-                <li>
-                  Develop and document efficient and reliable source code.
-                </li>
-              </ul>
-            </div>
+                <div className="resume-item">
+                  <h4 className="text-white fw-bold">
+                    Front-End Developer (Freelance)
+                  </h4>
+                  <h5 className="text-dark">July 2023 - Present</h5>
+                  <p className="text-light">
+                    <em>Remote / Tunisia</em>
+                  </p>
+                  <ul className="text-light small">
+                    <li>
+                      Designed and developed responsive web applications,
+                      including e-commerce platforms and fast-food ordering
+                      websites.
+                    </li>
+                    <li>
+                      Built reusable UI components and optimized web performance
+                      using modern React.js techniques.
+                    </li>
+                    <li>
+                      Wrote clean, efficient, and well-documented source code
+                      adhering to industry best practices.
+                    </li>
+                  </ul>
+                </div>
 
-            <div className="resume-item">
-              <h4>Computer Engineer</h4>
-              <h5>June 2021 - Dec 2022</h5>
-              <p className="company-name">Plus Security - Ariana</p>
-              <ul>
-                <li>
-                  Installation and maintenance of IT equipment and security
-                  systems.
-                </li>
-              </ul>
-            </div>
-
-            <div className="resume-item">
-              <h4>Odoo Developer</h4>
-              <h5>Dec 2020 - May 2021</h5>
-              <p className="company-name">Digi Firms - Ariana</p>
-              <ul>
-                <li>Development of Odoo applications.</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Formations */}
-          <div className="col-lg-6" data-aos="fade-up">
-            <h3 className="resume-title">Formation</h3>
-            <div className="resume-item">
-              <h4>Front-End Web Development with React</h4>
-              <h5>Feb 2023</h5>
-              <p>The Hong Kong University of Science and Technology (Online)</p>
-            </div>
-            <div className="resume-item">
-              <h4>Front-End Web UI Frameworks: Bootstrap 4</h4>
-              <h5>Jan 2023</h5>
-              <p>The Hong Kong University of Science and Technology (Online)</p>
-            </div>
-            <div className="resume-item">
-              <h4>Front-End HTML5/CSS3/jQuery</h4>
-              <h5>Oct 2019</h5>
-              <p>Training Center Of Ariana</p>
-            </div>
-          </div>
-
-          {/* Languages */}
-          <div className="col-lg-6" data-aos="fade-up">
-            <h3 className="resume-title">Languages</h3>
-            <div className="resume-item">
-              <h4>English</h4>
-              <div className="lang-bar">
-                <span>Read: </span>
-                <progress value="70" max="100"></progress>
-              </div>
-              <div className="lang-bar">
-                <span>Write: </span>
-                <progress value="60" max="100"></progress>
-              </div>
-              <div className="lang-bar">
-                <span>Speak: </span>
-                <progress value="50" max="100"></progress>
+                <div className="resume-item mb-0">
+                  <h4 className="text-white fw-bold">
+                    Computer & Security Systems Engineer
+                  </h4>
+                  <h5 className="text-dark">June 2021 - June 2023</h5>
+                  <p className="text-light">
+                    <em>Plus Security - Ariana, Tunisia</em>
+                  </p>
+                  <ul className="text-light small mb-0">
+                    <li>
+                      Managed the installation, configuration, and maintenance
+                      of IT equipment and security systems.
+                    </li>
+                    <li>
+                      Configured network infrastructures to ensure secure
+                      connectivity across systems.
+                    </li>
+                    <li>
+                      Diagnosed and resolved complex hardware and software
+                      issues with minimal downtime.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <div className="resume-item">
-              <h4>French</h4>
-              <div className="lang-bar">
-                <span>Read: </span>
-                <progress value="80" max="100"></progress>
+            {/* Carré 2: Education */}
+            <div className="col-lg-6">
+              <div
+                className="p-4 rounded shadow-sm h-100 border border-light border-opacity-25"
+                style={{
+                  backgroundColor: "rgba(255, 255, 255, 0.12)",
+                  backdropFilter: "blur(5px)",
+                }}
+              >
+                <h3 className="resume-title text-warning mb-4 pb-2 border-bottom border-light border-opacity-25">
+                  Education
+                </h3>
+
+                <div className="resume-item">
+                  <h4 className="text-white fw-bold">
+                    National Engineering Diploma in Computer Engineering
+                  </h4>
+                  <h5 className="text-dark">2018 - 2020</h5>
+                  <p className="text-light mb-0">
+                    Private Higher School of Engineers and Technological Studies
+                    of Tunis
+                  </p>
+                </div>
+
+                <div className="resume-item">
+                  <h4 className="text-white fw-bold">
+                    Professional Master in Industrial Computer Science
+                  </h4>
+                  <h5 className="text-dark">2013 - 2015</h5>
+                  <p className="text-light mb-0">
+                    Higher Institute of Computer Science of Medenine
+                  </p>
+                </div>
+
+                <div className="resume-item mb-0">
+                  <h4 className="text-white fw-bold">
+                    Master Degree in Computer Science
+                  </h4>
+                  <h5 className="text-dark">2004 - 2010</h5>
+                  <p className="text-light mb-0">
+                    Faculty of Sciences of Gabes
+                  </p>
+                </div>
               </div>
-              <div className="lang-bar">
-                <span>Write: </span>
-                <progress value="70" max="100"></progress>
+            </div>
+
+            {/* Carré 3: Formations */}
+            <div className="col-lg-6">
+              <div
+                className="p-4 rounded shadow-sm h-100 border border-light border-opacity-25"
+                style={{
+                  backgroundColor: "rgba(255, 255, 255, 0.12)",
+                  backdropFilter: "blur(5px)",
+                }}
+              >
+                <h3 className="resume-title text-warning mb-4 pb-2 border-bottom border-light border-opacity-25">
+                  Formations & Certifications
+                </h3>
+
+                <div className="resume-item">
+                  <h4 className="text-white fw-bold">
+                    Front-End Web Development with React
+                  </h4>
+                  <h5 className="text-dark">Feb 2023</h5>
+                  <p className="text-light mb-0">
+                    The Hong Kong University of Science and Technology (Online)
+                  </p>
+                </div>
+
+                <div className="resume-item">
+                  <h4 className="text-white fw-bold">
+                    Front-End Web UI Frameworks: Bootstrap 4
+                  </h4>
+                  <h5 className="text-dark">Jan 2023</h5>
+                  <p className="text-light mb-0">
+                    The Hong Kong University of Science and Technology (Online)
+                  </p>
+                </div>
+
+                <div className="resume-item mb-0">
+                  <h4 className="text-white fw-bold">
+                    Front-End HTML5/CSS3/jQuery
+                  </h4>
+                  <h5 className="text-dark">Oct 2019</h5>
+                  <p className="text-light mb-0">Training Center Of Ariana</p>
+                </div>
               </div>
-              <div className="lang-bar">
-                <span>Speak: </span>
-                <progress value="60" max="100"></progress>
+            </div>
+
+            {/* Carré 4: Languages */}
+            <div className="col-lg-6">
+              <div
+                className="p-4 rounded shadow-sm h-100 border border-light border-opacity-25"
+                style={{
+                  backgroundColor: "rgba(255, 255, 255, 0.12)",
+                  backdropFilter: "blur(5px)",
+                }}
+              >
+                <h3 className="resume-title text-warning mb-4 pb-2 border-bottom border-light border-opacity-25">
+                  Languages
+                </h3>
+
+                {/* English */}
+                <div className="resume-item">
+                  <h4 className="text-white fw-bold">English</h4>
+                  <div className="d-flex align-items-center gap-2 mb-2 text-light">
+                    <span style={{ width: "60px" }}>Read:</span>
+                    <progress value="70" max="100" className="w-100"></progress>
+                  </div>
+                  <div className="d-flex align-items-center gap-2 mb-2 text-light">
+                    <span style={{ width: "60px" }}>Write:</span>
+                    <progress value="60" max="100" className="w-100"></progress>
+                  </div>
+                  <div className="d-flex align-items-center gap-2 text-light">
+                    <span style={{ width: "60px" }}>Speak:</span>
+                    <progress value="50" max="100" className="w-100"></progress>
+                  </div>
+                </div>
+
+                {/* French */}
+                <div className="resume-item mb-0">
+                  <h4 className="text-white fw-bold">French</h4>
+                  <div className="d-flex align-items-center gap-2 mb-2 text-light">
+                    <span style={{ width: "60px" }}>Read:</span>
+                    <progress value="80" max="100" className="w-100"></progress>
+                  </div>
+                  <div className="d-flex align-items-center gap-2 mb-2 text-light">
+                    <span style={{ width: "60px" }}>Write:</span>
+                    <progress value="70" max="100" className="w-100"></progress>
+                  </div>
+                  <div className="d-flex align-items-center gap-2 text-light">
+                    <span style={{ width: "60px" }}>Speak:</span>
+                    <progress value="60" max="100" className="w-100"></progress>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </Fade>
   );
 };
 

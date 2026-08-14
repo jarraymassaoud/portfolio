@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { Fade } from "react-animation-components";
 
 export const Contact = () => {
   const form = useRef();
@@ -11,16 +12,16 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_2rwrn3s",   // Remplaci b-Service ID mta3ek
-        "template_pg14oed",  // Remplaci b-Template ID mta3ek
+        "service_2rwrn3s", // Service ID
+        "template_pg14oed", // Template ID
         form.current,
-        "a6ef279FPqGxF35Rb"    // Remplaci b-Public Key mta3ek
+        "a6ef279FPqGxF35Rb" // Public Key
       )
       .then(
         (result) => {
           console.log(result.text);
           setStatus("Message sent successfully! ✅");
-          form.current.reset(); // Vider le formulaire
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -30,80 +31,147 @@ export const Contact = () => {
   };
 
   return (
-    <section className="contact section" id="contact">
-      <div className="container">
-        <div className="row text-center mb-4">
-          <div className="col-12">
-            <h2 className="dark-color">Contact Me</h2>
-            <p className="text-muted">Feel free to reach out!</p>
-          </div>
-        </div>
-
-        <div className="row justify-content-center">
-          {/* Info Details */}
-          <div className="col-lg-5 mb-4">
-            <div className="contact-info p-4 bg-white rounded shadow-sm">
-              <h4>Get in Touch</h4>
-              <p className="mb-4">I am available for freelance work and full-time positions.</p>
-
-              <p><strong>Email:</strong> <a href="mailto:jarraymassoud@gmail.com">jarraymassoud@gmail.com</a></p>
-              <p><strong>Phone:</strong> +216 97 73 54 81</p>
-              <p><strong>Location:</strong> Tunis, Tunisia</p>
-
-              <hr />
-
-              <h5>Follow Me</h5>
-              <div className="d-flex gap-3 mt-3">
-                <a
-                  href="https://www.linkedin.com/in/massaoud-jarray-055b03154/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-outline-primary btn-sm"
-                >
-                  LinkedIn
-                </a>
-                <a
-                  href="https://github.com/jarraymassaoud"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-outline-dark btn-sm"
-                >
-                  GitHub
-                </a>
-              </div>
+    <Fade in>
+      <section className="contact section" id="contact">
+        <div className="container">
+          {/* Section Header */}
+          <div className="row text-center mb-5">
+            <div className="col-12">
+              <h2 className="text-white fw-bold">Contact Me</h2>
+              <div
+                className="mx-auto mb-2"
+                style={{
+                  width: "60px",
+                  height: "3px",
+                  backgroundColor: "var(--primary-blue, #1f5297)",
+                }}
+              ></div>
+              <p className="text-light">Feel free to reach out!</p>
             </div>
           </div>
 
-          {/* Form EmailJS */}
-          <div className="col-lg-6 mb-4">
-            <form ref={form} onSubmit={sendEmail} className="p-4 bg-white rounded shadow-sm">
-              <div className="mb-3">
-                <label className="form-label">Your Name</label>
-                {/* Attention: attribute 'name' obligatoire pour EmailJS */}
-                <input type="text" name="user_name" className="form-control" required />
+          <div className="row justify-content-center g-4">
+            {/* Info Details Carré */}
+            <div className="col-lg-5">
+              <div
+                className="p-4 rounded shadow-sm h-100 border border-light border-opacity-25"
+                style={{
+                  backgroundColor: "rgba(255, 255, 255, 0.12)",
+                  backdropFilter: "blur(5px)",
+                }}
+              >
+                <h4 className="text-warning mb-3 fw-bold">Get in Touch</h4>
+                <p className="text-light mb-4">
+                  I am available for freelance work and full-time positions.
+                </p>
+
+                <p className="text-light">
+                  <strong className="text-white">Email:</strong>{" "}
+                  <a
+                    href="mailto:jarraymassoud@gmail.com"
+                    className="text-warning text-decoration-none"
+                  >
+                    jarraymassoud@gmail.com
+                  </a>
+                </p>
+                <p className="text-light">
+                  <strong className="text-white">Phone:</strong> +216 97 73 54
+                  81
+                </p>
+                <p className="text-light">
+                  <strong className="text-white">Location:</strong> Tunis,
+                  Tunisia
+                </p>
+
+                <hr className="border-light opacity-25 my-4" />
+
+                <h5 className="text-white fw-bold mb-3">Follow Me</h5>
+                <div className="d-flex gap-3">
+                  {/* LinkedIn Button in Blue */}
+                  <a
+                    href="https://www.linkedin.com/in/massaoud-jarray/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn  btn-outline-light  btn-sm fw-bold"
+                    style={{ backgroundColor: "var(--primary-blue, #0a66c2)" }}
+                  >
+                    LinkedIn
+                  </a>
+                  <a
+                    href="https://github.com/jarraymassaoud"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-light btn-sm fw-bold"
+                  >
+                    GitHub
+                  </a>
+                </div>
               </div>
+            </div>
 
-              <div className="mb-3">
-                <label className="form-label">Your Email</label>
-                <input type="email" name="user_email" className="form-control" required />
-              </div>
+            {/* Form EmailJS Carré */}
+            <div className="col-lg-6">
+              <form
+                ref={form}
+                onSubmit={sendEmail}
+                className="p-4 rounded shadow-sm border border-light border-opacity-25"
+                style={{
+                  backgroundColor: "rgba(255, 255, 255, 0.12)",
+                  backdropFilter: "blur(5px)",
+                }}
+              >
+                <div className="mb-3">
+                  <label className="form-label text-white fw-bold">
+                    Your Name
+                  </label>
+                  <input
+                    type="text"
+                    name="user_name"
+                    className="form-control bg-transparent text-white border-light border-opacity-50"
+                    required
+                  />
+                </div>
 
-              <div className="mb-3">
-                <label className="form-label">Message</label>
-                <textarea name="message" className="form-control" rows="4" required></textarea>
-              </div>
+                <div className="mb-3">
+                  <label className="form-label text-white fw-bold">
+                    Your Email
+                  </label>
+                  <input
+                    type="email"
+                    name="user_email"
+                    className="form-control bg-transparent text-white border-light border-opacity-50"
+                    required
+                  />
+                </div>
 
-              <button type="submit" className="btn btn-primary w-100">
-                Send Message
-              </button>
+                <div className="mb-3">
+                  <label className="form-label text-white fw-bold">
+                    Message
+                  </label>
+                  <textarea
+                    name="message"
+                    className="form-control bg-transparent text-white border-light border-opacity-50"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
 
-              {/* Status Message */}
-              {status && <p className="mt-3 text-center font-weight-bold">{status}</p>}
-            </form>
+                <button type="submit" className="btn btn-warning w-100 fw-bold">
+                  Send Message
+                </button>
+
+                {/* Status Message */}
+                {status && (
+                  <p className="mt-3 text-center fw-bold text-warning">
+                    {status}
+                  </p>
+                )}
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </Fade>
   );
 };
 
